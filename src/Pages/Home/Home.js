@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeBanner from './HomeBanner';
+import OurCorValue from './OurCorValue';
 import Navbar from './Shared/Navbar';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div className=''>
             <Navbar></Navbar>
             <HomeBanner></HomeBanner>
+            <OurCorValue></OurCorValue>
         </div>
     );
 };
