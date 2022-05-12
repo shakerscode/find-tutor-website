@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className="navbar bg-primary">
             <div className="navbar-start">
-                <a className="btn btn-ghost normal-case text-xl font-bold ml-5 text-white">Find Tutors.</a>
+                <a className="btn btn-ghost normal-case text-3xl font-bold ml-5 text-white">Find Tutors.</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal text-white p-0">

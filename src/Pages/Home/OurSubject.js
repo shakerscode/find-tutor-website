@@ -1,19 +1,23 @@
 import React from 'react';
 
-const OurSebject = () => {
+const OurSubject = ({ img, name }) => {
+
     return (
-        <div className='grid grid-cols-4 gap-4'>
-            <div class="card w-96 bg-base-100 shadow-xl">
-                <div class="card-body">
-                    <h2 class="card-title">Card title!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                    </div>
+        <div
+            data-aos="flip-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in"
+            className="card w-64 mx-auto shadow-lg p-0 bg-accent cursor-pointer hover:bg-white">
+            <div className="card-body">
+                <div className='flex justify-between items-center'>
+                    <img className='w-16 p-2 bg-white hover:bg-accent border-2 border-accent rounded-full' src={img} alt="" />
+                    <h2 className="text-xl text-black">{name}</h2>
                 </div>
             </div>
         </div>
     );
 };
 
-export default OurSebject;
+export default OurSubject;
