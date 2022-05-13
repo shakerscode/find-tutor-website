@@ -8,12 +8,12 @@
         "subject": "Math",
         "desc": "Your personal information will be added here.",
         "hourlyRate": 35,
-        "rating": 5,
+        "rating": 4,
         "img": "https://i.ibb.co/Wv3J8fw/women-two-1-removebg-preview.png"
     },
     {
         "_id": 2,
-        "name": "Murtoja Khondoker",
+        "name": "Murtoja K.",
         "qualification": "Graduated",
         "university": "MIT",
         "topper": "Class Topper",
@@ -68,7 +68,7 @@
         "subject": "Finance",
         "desc": "Your personal information will be added here.",
         "hourlyRate": 30,
-        "rating": 5,
+        "rating": 4,
         "img": "https://i.ibb.co/d6F0pSR/women-one-removebg-preview.png"
     },
     {
@@ -100,7 +100,7 @@
         "name": "Dr. Mahfuj",
         "qualification": "Graduated",
         "university": "University Of Toronto",
-        "topper": "Class Topper",
+        "topper": "Uni Topper",
         "subject": "Music",
         "desc": "Your personal information will be added here.",
         "hourlyRate": 25,

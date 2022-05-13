@@ -12,7 +12,7 @@ const HomeBanner = () => {
                     data-aos-duration="1200"
                     data-aos-easing="ease-in"
                     src={banner}
-                    className="lg:max-w-lg max-w-xm rounded-lg ml-3"
+                    className="lg:max-w-lg max-w-xm rounded-lg md:ml-3"
                     alt='' />
                 <div 
                     className='text-secondary px-4'>
@@ -37,7 +37,7 @@ const HomeBanner = () => {
                     data-aos-duration="900"
                     data-aos-once="true"
                     data-aos-easing="ease-in"
-                    className="btn btn-primary text-white bg-gradient-to-r from-purple-400 to-primary-700">Get Started</button>
+                    className="btn btn-primary text-white bg-gradient-to-r from-purple-400 to-primary-800">Get Started</button>
                 </div>
             </div>
         </div>

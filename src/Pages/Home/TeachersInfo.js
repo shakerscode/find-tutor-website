@@ -1,13 +1,13 @@
 import React from 'react';
 
-const TeachersInfo = ({education, qualification}) => {
+const TeachersInfo = ({ tittle, img }) => {
     return (
-        <div className='flex justify-around  items-center text-center bg-purple-500'>
+        <div className='flex items-center mt-2' >
             <div className=''>
-                <img src={education} alt="" />
+                <img className='w-6' src={img} alt="" />
             </div>
             <div className='ml-3'>
-                <h5>{qualification}</h5>
+                <h5>{tittle}</h5>
             </div>
         </div>
     );

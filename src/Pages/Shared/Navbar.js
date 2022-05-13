@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const menuItems = <>
         <li><Link to='/home'>Home</Link></li>
-        <li><Link to='/teachers'>Teachers</Link></li>
+        <li><Link to='/tutors'>Tutors</Link></li>
         <li><Link to='/find-tutor'>Find Tutor</Link></li>
         <li><Link to='/reviews'>Reviews</Link></li>
         <li><Link to='/about'>About</Link></li>
@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className="navbar bg-primary z-50 sticky top-0 p-2">
             <div className="navbar-start">
-                <a className="btn btn-ghost normal-case text-3xl font-bold ml-5 text-white" href='#'>Find Tutors.</a>
+                <a className="btn btn-ghost normal-case text-3xl font-bold ml-5 text-white" href='/'>Find Tutors.</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal text-white p-0">
