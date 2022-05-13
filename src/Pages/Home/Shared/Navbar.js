@@ -12,14 +12,15 @@ const Navbar = () => {
         <li><Link to='/login'>Login</Link></li>
         </>
     return (
-        <div className="navbar bg-primary">
+        <div className="navbar bg-primary z-50 sticky top-0 p-2">
             <div className="navbar-start">
-                <a className="btn btn-ghost normal-case text-3xl font-bold ml-5 text-white">Find Tutors.</a>
+                <a className="btn btn-ghost normal-case text-3xl font-bold ml-5 text-white" href='#'>Find Tutors.</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal text-white p-0">
                     {menuItems}
                 </ul>
+                
             </div>
             <div className="navbar-end md:hidden lg:hidden">
             <div className="dropdown dropdown-end">

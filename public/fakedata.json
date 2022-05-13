@@ -1,0 +1,110 @@
+[
+    {
+        "_id": 1,
+        "name": "Olibia Mortej",
+        "qualification": "Graduated",
+        "university": "University Of Toronto",
+        "topper": "Uni Topper",
+        "subject": "Math",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 35,
+        "rating": 5,
+        "img": "https://i.ibb.co/Wv3J8fw/women-two-1-removebg-preview.png"
+    },
+    {
+        "_id": 2,
+        "name": "Murtoja Khondoker",
+        "qualification": "Graduated",
+        "university": "MIT",
+        "topper": "Class Topper",
+        "subject": "Physics", 
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 35,
+        "rating": 5,
+        "img": "https://i.ibb.co/2jwwTCj/men-one-removebg-preview.png"
+    },
+    {
+        "_id": 3,
+        "name": "Shaker Ahamed",
+        "qualification": "Studying",
+        "university": "University Of Oxford",
+        "topper": "Class Topper",
+        "subject": "Zoology",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 30,
+        "rating": 5,
+        "img": "https://i.ibb.co/wLMBZHs/men-two-removebg-preview.png"
+    },
+    {
+        "_id": 4,
+        "name": "Will Rowni",
+        "qualification": "Studying",
+        "university": "Stanford  University",
+        "topper": "Class Topper",
+        "subject": "Chemistry",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 30,
+        "rating": 5,
+        "img": "https://i.ibb.co/ryyjjgy/men-five-removebg-preview.png"
+    },
+    {
+        "_id": 5,
+        "name": "Salvia Selina",
+        "qualification": "Studying",
+        "university": "Harvard University",
+        "topper": "Class Topper",
+        "subject": "Physics",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 30,
+        "rating": 5,
+        "img": "https://i.ibb.co/k3WZKfB/women-three-removebg-preview.png"
+    },
+    {
+        "_id": 6,
+        "name": "Manobi Alam",
+        "qualification": "Studying",
+        "university": "University of Chicago",
+        "topper": "Class Topper",
+        "subject": "Finance",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 30,
+        "rating": 5,
+        "img": "https://i.ibb.co/d6F0pSR/women-one-removebg-preview.png"
+    },
+    {
+        "_id": 7,
+        "name": "Lily Christiana",
+        "qualification": "Studying",
+        "university": "University of Pennsylvania",
+        "topper": "Class Topper",
+        "subject": "Accounting",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 30,
+        "rating": 5,
+        "img": "https://i.ibb.co/5RbgYZ0/women-four-removebg-preview.png"
+    },
+    {
+        "_id": 8,
+        "name": "Lara Stipen",
+        "qualification": "Graduated",
+        "university": "University Of Toronto",
+        "topper": "Uni Topper",
+        "subject": "English",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 25,
+        "rating": 5,
+        "img": "https://i.ibb.co/h9qRTxY/woment-five-removebg-preview.png"
+    },
+    {
+        "_id": 9,
+        "name": "Dr. Mahfuj",
+        "qualification": "Graduated",
+        "university": "University Of Toronto",
+        "topper": "Class Topper",
+        "subject": "Music",
+        "desc": "Your personal information will be added here.",
+        "hourlyRate": 25,
+        "rating": 5,
+        "img": "https://i.ibb.co/PxnN4bf/men-four.png"
+    }
+]

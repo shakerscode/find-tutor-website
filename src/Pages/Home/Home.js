@@ -3,6 +3,7 @@ import HomeAbout from './HomeAbout';
 import HomeBanner from './HomeBanner';
 import OurCorValue from './OurCorValue';
 import OurSubjects from './OurSubjects';
+import OurTutors from './OurTutors';
 import Navbar from './Shared/Navbar';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <OurCorValue></OurCorValue>
             <HomeAbout></HomeAbout>
             <OurSubjects></OurSubjects>
+            <OurTutors></OurTutors>
         </div>
     );
 };
