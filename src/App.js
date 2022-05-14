@@ -14,7 +14,7 @@ function App() {
   }, []);
 
   return (
-    <div className='bg-white'>
+    <div className='bg-white App'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

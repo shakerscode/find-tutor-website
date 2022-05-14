@@ -12,7 +12,7 @@ const OurTutor = ({ teacher }) => {
     const navigate = useNavigate();
     const { name, qualification, university, topper, subject, hourlyRate, rating, desc, img } = teacher;
     return (
-        <div class="card md:w-2/6 shadow-xl">
+        <div class="card max-w-sm shadow-xl">
             <figure class="px-10 pt-10">
                 <div class="avatar online">
                     <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
