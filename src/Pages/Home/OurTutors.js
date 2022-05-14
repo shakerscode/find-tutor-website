@@ -1,17 +1,11 @@
-import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import useTutors from '../hooks/useTutors';
 import OurTutor from './OurTutor';
 
 const OurTutors = () => {
     const navigate = useNavigate();
 
-    const [teachers, setTeachers] = useState([]);
-
-    useEffect(() => {
-        fetch('fakedata.json')
-            .then(res => res.json())
-            .then(data => setTeachers(data))
-    }, [])
+    const [teachers] = useTutors()
     return (
         <div className=''>
             <h1 className='text-center font-bold text-3xl text-secondary my-10'>Our Extraordinary tutors</h1>
@@ -24,7 +18,7 @@ const OurTutors = () => {
                 }
             </div>
             <div className=' flex my-10 '>
-                <button onClick={()=> navigate('/tutors')} class="btn btn-primary text-white mx-auto bg-gradient-to-r from-purple-400 to-primary-800">Explore More</button>
+                <button onClick={()=> navigate('/tutor')} className="btn btn-primary text-white mx-auto bg-gradient-to-r from-purple-400 to-primary-800">Explore More</button>
             </div>
         </div>
     );

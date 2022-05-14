@@ -7,6 +7,7 @@ import Tutors from './Pages/Tutors/Tutors';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Pages/Shared/Navbar';
 import Footer from './Pages/Shared/Footer';
+import AppointTutor from './Pages/AppointTutor/AppointTutor';
 
 function App() {
   useEffect(() => {
@@ -19,7 +20,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/tutors' element={<Tutors></Tutors>}></Route>
+        <Route path='/tutor' element={<Tutors></Tutors>}></Route>
+        <Route path='/appoint-tutor' element={<AppointTutor></AppointTutor>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
