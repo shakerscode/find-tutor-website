@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './Pages/Shared/Navbar';
 import Footer from './Pages/Shared/Footer';
 import AppointTutor from './Pages/AppointTutor/AppointTutor';
+import Login from './Pages/Authentication/Login';
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/tutor' element={<Tutors></Tutors>}></Route>
         <Route path='/appoint-tutor' element={<AppointTutor></AppointTutor>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

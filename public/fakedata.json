@@ -9,6 +9,13 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 35,
         "rating": 4,
+        "slots": [
+           " 8:00 PM - 9:00 PM",
+           " 9:00 PM - 10:00 PM",
+           " 10:00 PM - 11:00 PM",
+           " 11:00 PM - 12:00 AM",
+           " 12:00 AM - 1:00 AM"
+        ],
         "img": "https://i.ibb.co/Wv3J8fw/women-two-1-removebg-preview.png"
     },
     {
@@ -21,6 +28,13 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 35,
         "rating": 5,
+        "slots": [
+            " 8:00 PM - 9:00 PM",
+            " 9:00 PM - 10:00 PM",
+            " 10:00 PM - 11:00 PM",
+            " 11:00 PM - 12:00 AM",
+            " 12:00 AM - 1:00 AM"
+         ],
         "img": "https://i.ibb.co/2jwwTCj/men-one-removebg-preview.png"
     },
     {
@@ -33,6 +47,13 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 30,
         "rating": 5,
+        "slots": [
+            " 8:00 PM - 9:00 PM",
+            " 9:00 PM - 10:00 PM",
+            " 10:00 PM - 11:00 PM",
+            " 11:00 PM - 12:00 AM",
+            " 12:00 AM - 1:00 AM"
+         ],
         "img": "https://i.ibb.co/wLMBZHs/men-two-removebg-preview.png"
     },
     {
@@ -45,6 +66,13 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 30,
         "rating": 5,
+        "slots": [
+            " 8:00 PM - 9:00 PM",
+           " 9:00 PM - 10:00 PM",
+           " 10:00 PM - 11:00 PM",
+           " 11:00 PM - 12:00 AM",
+           " 12:00 AM - 1:00 AM"
+         ],
         "img": "https://i.ibb.co/ryyjjgy/men-five-removebg-preview.png"
     },
     {
@@ -57,6 +85,13 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 30,
         "rating": 5,
+        "slots": [
+            " 8:00 PM - 9:00 PM",
+            " 9:00 PM - 10:00 PM",
+            " 10:00 PM - 11:00 PM",
+            " 11:00 PM - 12:00 AM",
+            " 12:00 AM - 1:00 AM"
+         ],
         "img": "https://i.ibb.co/k3WZKfB/women-three-removebg-preview.png"
     },
     {
@@ -68,7 +103,14 @@
         "subject": "Finance",
         "desc": "Your personal information will be added here.",
         "hourlyRate": 30,
-        "rating": 4,
+        "rating": 5,
+        "slots": [
+            " 8:00 PM - 9:00 PM",
+            " 9:00 PM - 10:00 PM",
+            " 10:00 PM - 11:00 PM",
+            " 11:00 PM - 12:00 AM",
+            " 12:00 AM - 1:00 AM"
+         ],
         "img": "https://i.ibb.co/d6F0pSR/women-one-removebg-preview.png"
     },
     {
@@ -81,6 +123,13 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 30,
         "rating": 5,
+        "slots": [
+            " 8:00 PM - 9:00 PM",
+           " 9:00 PM - 10:00 PM",
+           " 10:00 PM - 11:00 PM",
+           " 11:00 PM - 12:00 AM",
+           " 12:00 AM - 1:00 AM"
+         ],
         "img": "https://i.ibb.co/5RbgYZ0/women-four-removebg-preview.png"
     },
     {
@@ -93,6 +142,9 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 25,
         "rating": 5,
+        "slots": [
+            
+         ],
         "img": "https://i.ibb.co/h9qRTxY/woment-five-removebg-preview.png"
     },
     {
@@ -105,6 +157,13 @@
         "desc": "Your personal information will be added here.",
         "hourlyRate": 25,
         "rating": 5,
+        "slots": [
+            " 8:00 PM - 9:00 PM",
+            " 9:00 PM - 10:00 PM",
+            " 10:00 PM - 11:00 PM",
+            " 11:00 PM - 12:00 AM",
+            " 12:00 AM - 1:00 AM"
+         ],
         "img": "https://i.ibb.co/PxnN4bf/men-four.png"
     }
 ]
