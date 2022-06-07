@@ -7,8 +7,8 @@ const TutorsServices = ({date}) => {
     const [teachers] = useTutors()
     const [tutorService, setTutorService] = useState(null)
     return (
-        <div className='mt-10'>
-            <div className='grid md:grid-cols-3 grid-cols-1 gap-5 w-5/6 mx-auto'>
+        <div   className='mt-10'>
+            <div   className='grid md:grid-cols-3 grid-cols-1 gap-5 w-5/6 mx-auto'>
                 {
                     teachers.map((teacher) => 
                     <TutorsService 

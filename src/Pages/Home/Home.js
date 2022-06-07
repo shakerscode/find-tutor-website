@@ -7,7 +7,7 @@ import OurTutors from './OurTutors';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div   className=''>
             
             <HomeBanner></HomeBanner>
             <OurCorValue></OurCorValue>

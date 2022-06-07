@@ -10,11 +10,11 @@ import Music from '../../images/Subject-name/musical.png'
 const OurSubjects = () => {
         
     return (
-        <div className="card w-5/6 mx-auto mt-2">
-            <div className="card-body">
-                <h2 className="text-3xl text-center font-bold text-secondary">Our Subjects</h2>
-                <p className='text-center text-primary font-bold text-sm p-3'>Our tutors are specialized with this subjects</p>
-                 <div className='grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4'>
+        <div   className="card w-5/6 mx-auto mt-2">
+            <div   className="card-body">
+                <h2   className="text-3xl text-center font-bold text-secondary">Our Subjects</h2>
+                <p   className='text-center text-primary font-bold text-sm p-3'>Our tutors are specialized with this subjects</p>
+                 <div   className='grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4'>
                      <OurSubject name='English' img={English}></OurSubject>
                      <OurSubject name='Chemistry' img={Chemistry}></OurSubject>
                      <OurSubject name='Math' img={Math}></OurSubject>
